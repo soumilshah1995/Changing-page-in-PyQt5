@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Outsecure</class>
+ <widget class="QWidget" name="Outsecure">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>529</width>
+    <height>342</height>
+   </rect>
+  </property>
+  <property name="mouseTracking">
+   <bool>true</bool>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(8, 8, 8);</string>
+  </property>
+  <widget class="Line" name="line">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>80</y>
+     <width>591</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="QLabel" name="l_title">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>20</y>
+     <width>231</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(242, 247, 247);
+font: 30pt &quot;.SF NS Text&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Login Page</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_Submit">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>200</y>
+     <width>161</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(250, 255, 255);
+background-color: rgb(73, 199, 41);
+border-style:outset;
+border-radius:10px;
+font: 14pt &quot;Arial&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Submit</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_newuser">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>240</y>
+     <width>161</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(250, 255, 255);
+background-color: rgb(73, 199, 41);
+border-style:outset;
+border-radius:10px;
+font: 14pt &quot;Arial&quot;;</string>
+   </property>
+   <property name="text">
+    <string>New User</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="l_copyright">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>310</y>
+     <width>261</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(252, 0, 28);</string>
+   </property>
+   <property name="text">
+    <string>This software belongs to OutSecure </string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="txt_username">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>100</y>
+     <width>275</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(207, 211, 211);
+border-style:outset;
+border-radius:10px;
+font: 14pt &quot;Arial&quot;;</string>
+   </property>
+   <property name="placeholderText">
+    <string>Enter UserName</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="txt_password">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>150</y>
+     <width>271</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(207, 211, 211);
+border-style:outset;
+border-radius:10px;
+font: 14pt &quot;Arial&quot;;</string>
+   </property>
+   <property name="placeholderText">
+    <string>Enter Password</string>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="IMAGES/source.qrc"/>
+ </resources>
+ <connections/>
+</ui>
